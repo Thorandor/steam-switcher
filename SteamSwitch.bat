@@ -8,8 +8,12 @@ cls
 echo(
 echo(
 echo(
-echo                                      Select your account
-echo                            =======================================
+echo                            ===========================================
+echo                                     Steam Switcher by Thorandor
+echo                            https://github.com/Thorandor/steam-switcher
+echo                            ===========================================
+echo                                         Select your account
+echo                            ===========================================
 echo(
 echo 1) "Account 1"
 echo 2) "Account 2"
