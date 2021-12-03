@@ -21,14 +21,15 @@ echo(
 
 CHOICE /M Select /C 12
 
-If Errorlevel 2 Goto 2
 If Errorlevel 1 Goto 1
+If Errorlevel 2 Goto 2
+
+:1
+set username="ENTER_ACCOUNT_NAME_1"
+Goto end
 
 :2
 set username="ENTER_ACCOUNT_NAME_2"
-Goto end
-:1
-set username="ENTER_ACCOUNT_NAME_1"
 Goto end
 
 :end
